@@ -1,13 +1,13 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zh = navbar([
-  "/zh/",
-  "/zh/home",
-  { text: "使用指南", icon: "creative", link: "/zh/guide/" },
+  "/",
+  "/home",
+  { text: "使用指南", icon: "creative", link: "/guide/" },
   {
     text: "博文",
     icon: "edit",
-    prefix: "/zh/posts/",
+    prefix: "/posts/",
     children: [
       {
         text: "文章 1-4",
@@ -47,6 +47,6 @@ export const zh = navbar([
   {
     text: "主题文档",
     icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
+    link: "https://vuepress-theme-hope.github.io/v2/",
   },
 ]);
